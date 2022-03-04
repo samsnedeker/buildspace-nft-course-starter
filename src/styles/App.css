@@ -29,10 +29,12 @@
 }
 
 .gradient-text {
-  background: -webkit-linear-gradient(left, #c657ae 30%, #35aee2 60%);
+  background: -webkit-linear-gradient(left, #c657ae, #35aee2);
   background-clip: text;
+  background-size: 200% 200%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  animation: gradient-animation 4s infinite;
 }
 
 .cta-button {
